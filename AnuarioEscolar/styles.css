@@ -1,0 +1,51 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.corpo{
+    margin: 0;
+    padding: 0;
+    min-height: 500px;
+    background-color: rgb(215, 213, 203);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.livro{
+    background-color: rgb(135, 90, 16);
+    height: 405px;
+    width: 365px;
+    display: flex;
+    justify-content: flex-start;
+    /*box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);*/
+}
+
+.capa{
+    height: 400px;
+    width: 350px;
+    background-color: red;
+    margin: 0px;
+    justify-items: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.lombada {
+    background-color: rgb(168, 0, 0);
+    height: 405px;
+    width: 15px;
+    /*box-shadow: 3px 0px 10px rgba(0, 0, 0, 0.4);*/
+}
+
+.titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+.ano {
+    font-size: 50px;
+    color: white;
+}
+
