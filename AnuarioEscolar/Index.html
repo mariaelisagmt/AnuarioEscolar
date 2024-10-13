@@ -1,34 +1,92 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anuário Escolar 2024</title>
-    
-    <!-- Bootstrap CSS -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    
-    <!-- My style -->
-    <link rel="stylesheet" href="styles.css">
+    <title>Anuário Escolar</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #e0e0e0;
+        }
+
+        .container {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .book {
+            position: relative;
+            width: 300px;
+            height: 400px;
+            background-color: rgb(214, 59, 59);
+            color: white;
+            box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.2);
+            margin-bottom: 15px;
+        }
+
+        .book::before {
+            content: '';
+            position: absolute;
+            top: 2px;
+            width: 302px;
+            height: 400px;
+            background-color: rgb(255, 231, 197);
+            z-index: -1;
+            box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.15);
+        }
+
+        .book::after {
+            content: '';
+            position: absolute;
+            top: 4px;
+            width: 304px;
+            height: 400px;
+            background-color: rgb(253, 210, 150);
+            z-index: -2;
+            box-shadow: 5px 10px 15px rgba(255, 4, 4, 0.1);
+        }
+
+        .lombada {
+            position: absolute;
+            top: 0;
+            left: -30px;
+            width: 30px;
+            height: 101%;
+            background-color: #a10000;
+        }
+
+        .titulo {
+            font-family: 'Arial', sans-serif;
+            font-size: 24px;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        .subtitulo {
+            font-size: 16px;
+            text-align: center;
+            margin-top: 20px;
+            color: #ebebeb;
+        }
+    </style>
 </head>
 <body>
-    <!-- Your content here -->
-     <div class="corpo">
-         <div class="livro">
-             <div class="lombada"></div>
-             <div class="capa">
-             <p class="titulo">Anuário Escolar</p>
-             <p class="ano">2024</p>
-        </div>
 
+    <div class="container">
+        <div class="book">
+            <div class="lombada"></div>
+            <div class="titulo">Anuário Escolar</div>
+            <div class="subtitulo">2024</div>
         </div>
     </div>
 
-
-
-    <!-- Bootstrap JS and dependencies -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

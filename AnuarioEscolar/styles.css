@@ -1,51 +1,81 @@
-html, body{
+html, body {
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
-.corpo{
+.corpo {
     margin: 0;
     padding: 0;
-    min-height: 500px;
+    min-height: 100vh; 
     background-color: rgb(215, 213, 203);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.livro{
-    background-color: rgb(135, 90, 16);
-    height: 405px;
-    width: 365px;
+.livro {
+    background-color: rgb(243, 150, 0);
+    height: 100vh; 
+    width: 60vw; 
+    max-width: 380px; 
+    max-height: 480px; 
     display: flex;
     justify-content: flex-start;
-    /*box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);*/
 }
 
-.capa{
-    height: 400px;
-    width: 350px;
+.capa {
+    height: 95%; 
+    width: 95%;
     background-color: red;
     margin: 0px;
+    display: flex;
     justify-items: center;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 5px 5px 10px rgba(109, 64, 0, 0.3);
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .lombada {
     background-color: rgb(168, 0, 0);
-    height: 405px;
-    width: 15px;
-    /*box-shadow: 3px 0px 10px rgba(0, 0, 0, 0.4);*/
+    height: 100%;
+    width: 4%; 
 }
 
 .titulo {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 50px;
+    font-size: 5vw;
     color: white;
+    text-align: center;
 }
 
 .ano {
-    font-size: 50px;
+    font-size: 4vw; 
     color: white;
+    text-align: center;
 }
 
+/* Media queries para dispositivos menores */
+@media (max-width: 768px) {
+    .livro {
+        width: 90vw;
+        height: 50vh;
+    }
+    .titulo {
+        font-size: 7vw;
+    }
+    .ano {
+        font-size: 6vw;
+    }
+}
+
+/* Media queries para dispositivos maiores */
+@media (min-width: 1024px) {
+    .livro {
+        width: 60vw;
+        height: 65vh;
+    }
+}
