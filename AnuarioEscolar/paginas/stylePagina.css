@@ -18,6 +18,13 @@ body {
   background-color: rgb(214, 59, 59);
 }
 
+.title{
+  color: rgb(0, 0, 58);
+  font-family: 'Arial', sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+
 .page {
   width: 50%;
   height: 100%;
