@@ -1,6 +1,6 @@
 # Anuário Escolar
 
-**Tecnologias utilizadas: ** HTML e CSS
+**Tecnologias utilizadas:** HTML e CSS
 
 **Objetivo:** projeto desenvolvido como proposta de projeto final da oficina de *Introdução ao GIT e GITHUB*. Com o mesmo será possível treinar os principais comandos do git, compreender a arquitetura e estrutura de branchs, por fim, será possível simular o funcionamento do fluxo de trabalho colaborativos do git e github baseado em projetos reais.
 
