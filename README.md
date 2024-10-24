@@ -1,13 +1,12 @@
-# Anuário escolar
+# Anuário Escolar
 
-Objetivo: projeto desenvolvido para ensinar os alunos comandos, estrutura, arquitetura, funcionamento e todo o fluxo do git em projetos reais
+**Tecnologias utilizadas: ** HTML e CSS
 
-Os alunos tem o perfil iniciante
+**Objetivo:** projeto desenvolvido como proposta de projeto final da oficina de *Introdução ao GIT e GITHUB*. Com o mesmo será possível treinar os principais comandos do git, compreender a arquitetura e estrutura de branchs, por fim, será possível simular o funcionamento do fluxo de trabalho colaborativos do git e github baseado em projetos reais.
 
-Os alunos serão apresentados a conceitos e comandos do git, posteriormente aprenderam a clonar, realizar fork e outros processos integrando com o github
+**Público alvo:** anulos com perfil iniciante.
 
-Nesse projeto a turma deverá utilizar uma esturura previamente montada e deverão adicionar sua foto/avatar, seu nome e suas caracteristicas/coisas favoritas 
-em arquivos html e css, deverão commitar e fazer todo o processo em branchs distintas e por fim será feito o pull request para o projeto principal que resultará 
-em um anuario online e digital totalmente colaborativo.
+**Proposta:** Os alunos serão apresentados a conceitos e comandos do git, posteriormente aprenderam outros processos de integração colaborativa com o github.
+Nesse projeto a turma deverá utilizar uma estrura previamente montada e deverão adicionar sua foto, nome e suas caracteristicas nos arquivos html e css, deverão commitar e fazer todo o processo em branchs distintas. Por fim será feito o pull request para o projeto principal que resultará  em um anuario escolar da turma digital e totalmente colaborativo.
 
-Com isso os alunos poderão se manter motivados, interessados e o melhor de tudo aprendendo uma ferramenta altamente necessária para o mercado de trabalho.
+**Resultado:** Com isso os alunos poderão se manter motivados, interessados e o melhor de tudo aprendendo uma ferramenta altamente necessária para o mercado de trabalho.
